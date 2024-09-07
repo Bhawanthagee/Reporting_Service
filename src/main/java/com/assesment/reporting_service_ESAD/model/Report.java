@@ -21,6 +21,7 @@ public class Report {
     private UUID reportID;
     private String ReportName;
     private Date submittedDate;
+    private String reporter;
 
 
 }
