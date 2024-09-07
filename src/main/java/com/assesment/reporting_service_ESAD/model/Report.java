@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.ToString;
 
+import java.util.Date;
 import java.util.UUID;
 
 @Entity
@@ -19,5 +20,7 @@ public class Report {
     @Id
     private UUID reportID;
     private String ReportName;
+    private Date submittedDate;
+
 
 }
